@@ -114,7 +114,7 @@ public class Sudoku{
   }
   //checks cube to see if valid for all digits
   private boolean isSquaresValid(int colIndex, int rowIndex){
-    for(int i = 1; i < 9; i++){
+    for(int i = 1; i < 10; i++){
       if(!isSquaresValidForDigit(colIndex, rowIndex, (char) (i+48))){
         return false;
       }
